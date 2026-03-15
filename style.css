@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #333;
+  color: white;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
   text-align: center;
 }
 
-button {
+.btn {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #0056b3;
@@ -19,6 +20,19 @@ button {
   border-radius: 6px;
 }
 
-button:hover {
+.btn:hover {
   background-color: #7aade7;
+}
+
+#author {
+  margin-top: 18px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quote::before,
+.quote::after {
+  content: '"';
 }
