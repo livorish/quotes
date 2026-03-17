@@ -60,3 +60,10 @@ body {
 .author {
   font-style: italic;
 }
+
+.star-icon {
+  font-size: 40px;
+  cursor: pointer;
+  color: yellow;
+  vertical-align: middle;
+}
