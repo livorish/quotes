@@ -24,10 +24,6 @@ body {
   background-color: #7aade7;
 }
 
-#toggle-favorite-btn {
-  display: none;
-}
-
 #author {
   margin-top: 18px;
 }
